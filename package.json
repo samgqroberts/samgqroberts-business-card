@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "samgqroberts"
+  },
+  "bin": {
+    "samgqroberts": "bin/index.js"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "My personal business card",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "keywords": [
+    "samgqroberts"
+  ],
+  "license": "MIT",
+  "name": "samgqroberts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "npm run build && node bin/index.js",
+    "prebuild": "rimraf bin",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
