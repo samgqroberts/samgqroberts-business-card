@@ -11,5 +11,5 @@ const nameASCII = `
 export function generateCard() {
   console.log(nameASCII);
   console.log('Sam Roberts / Software Developer');
-  console.log('https://github.com/samgqroberts');
+  console.log('https://samgqroberts.com');
 }
